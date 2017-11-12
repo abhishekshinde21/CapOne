@@ -17,7 +17,7 @@ mongoimport -d airbnb -c reviews --type csv --file reviews.csv --headerline
 mongoimport -d airbnb -c calendar --type csv --file calendar.csv --headerline
 
 mongo
-# THIS IS A COMMENT: Once running mongo, type in the following commands to verify that the three collections have been imported into mongodb #
+Once running mongo, type in the following commands to verify that the three collections have been imported into mongodb
 > use airbnb
 > show collections
 calendar
@@ -124,14 +124,3 @@ Price Estimation:
 	Table has paging for navigation along with page size (10, 20, 30, 40)
 	Displays average weekly price of listings within given distance 
 	(if you want to pinpoint particular property, enter EXACT longitude and latitude and distance of 0)
-
-
-
-
-
-
-
-
-
-
-# CapOne
