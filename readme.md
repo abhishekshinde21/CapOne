@@ -119,6 +119,7 @@ Home:
 		Shows graph of cleaning and additional people fees for the listings from the table
 
 Price Estimation:
+
 Price Estimation consists of text fields (latitude, longitude, and distance), and table.
 
 Page is initialized with 37.76005055162609 latitude, -122.42135244186619 longitude, and 0 distance; when Search button is clicked, shows data on given property to show how the Price Estimation page works
