@@ -1,0 +1,17 @@
+<div ui-grid="gridOptions" ui-grid-pagination ui-grid-resize-columns ui-grid-exporter ui-grid-move-columns class="grid">
+	<div class="watermark" ng-show="gridOptions.loaded && !gridOptions.loading && !gridOptions.data.length">
+		No data available
+	</div>
+	<div class="watermark" ng-show="!gridOptions.loaded && gridOptions.loading">
+		Loading Data...
+	</div>
+</div><br><br>
+<div>
+	<h3>Price Ranges:</h3>
+	<canvas id="pie" class="chart chart-pie" chart-data="data" chart-labels="labels" chart-options="options"></canvas> 
+</div>
+<br><br>
+<div>
+	<h3>Additional Fees for Each Listing (Cleaning and Extra People): </h3>
+	<canvas id="bar" class="chart chart-bar" chart-data="data2" chart-labels="labels2" chart-series="series"></canvas>
+</div>

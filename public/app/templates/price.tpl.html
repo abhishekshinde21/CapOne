@@ -1,0 +1,15 @@
+<div>
+	<label for="latitude">Latitude:</label><input type="text" name="latitude" id="latitude" ng-model="filterData.latitude"/>
+	<label for="longitude">Longitude:</label><input type="text" name="longitude" id="longitude" ng-model="filterData.longitude"/>
+	<label for="dist">Distance:</label><input type="text" name="dist" id="dist" ng-model="filterData.dist"/>
+	<button ng-click="search()">Search</button><br/><br/>
+	<span>Average Weekly Price: {{ filterData.price | currency }}</span>
+</div>
+<div ui-grid="gridOptions" ui-grid-pagination ui-grid-resize-columns ui-grid-exporter ui-grid-move-columns class="grid">
+	<div class="watermark" ng-show="gridOptions.loaded && !gridOptions.loading && !gridOptions.data.length">
+		No data available
+	</div>
+	<div class="watermark" ng-show="!gridOptions.loaded && gridOptions.loading">
+		Loading Data...
+	</div>
+</div>

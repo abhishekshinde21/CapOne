@@ -1,0 +1,18 @@
+{
+	"name": "AirBnB",
+	"dependencies": {
+		"angular": "^1.6.0",
+		"bootstrap": "3.1.1",
+		"angular-ui-router": "*",
+		"angular-animate": "^1.6.0",
+		"angular-cookies": "^1.6.0",
+		"angular-sanitize": "^1.6.0",
+		"angular-touch": "^1.6.0",
+		"angular-ui-grid": "*",
+		"angular-ui-date": "*",
+		"angular-chart.js": "*"
+	},
+	"resolutions": {
+		"angular": ">=1.2.16 1.6.x"
+	}
+}
