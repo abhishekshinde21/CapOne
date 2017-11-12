@@ -86,7 +86,7 @@ Query to find listings 50 meters from longitude and latitude:
 First, open a command prompt (1) and run the following command:
 mongod --dbpath data
 
-Open new command prompt (2) and run the following command
+Open new command prompt (2) and run the following command:
 npm start
 
 Open a browser and type the following URL:
